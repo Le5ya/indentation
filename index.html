@@ -9,43 +9,37 @@
 </head>
 <body>
   <article class="article">
-    <section class="section about">
-      <div class="container about__container">
-          <h1 class="title about__title">Отступы в вёрстке: margin и padding</h1>
-          <p class="text about__text">
-            В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.
-          </p>
-          <p class="text about__text">
-            Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.
-          </p>
-        </div>
-
+    <div class="entry">
+      <div class="container">
+        <h1 class="title article__title">Отступы в вёрстке: margin и padding</h1>
+        <p class="text">
+          В этой статье я рассмотрю самые популярные "стандартные" решения для сохранения смысла и хорошей читаемости вашего кода. Если точнее — речь пойдет об основных правилах организации отступов. Они сильно влияют на общую функциональность кода и, если всё сделано верно, позволяют легко вносить изменения в любую его часть. При этом другие части кода продолжат нормально работать.
+        </p>
+        <p class="text">
+          Как это часто бывает, знание базовых принципов поможет проявить гибкость и выйти за их пределы. Эти знания особенно важны для начинающих, но также будут полезным напоминанием и для более опытных верстальщиков. Итак, поговорим о фундаментальных основах работы с отступами в вёрстке.
+        </p>
       </div>
-       <!-- container -->
-    </section>
-    <section class="section gray">
-      <div class="gray__plate">
-        <div class="container gray__container">
-          <h2 class="title gray__title">Содержание</h2>
-          <ul class="gray__list">
-            <li class="gray-item">
-              <a href="#first" class="gray__link">
-                1. Отступ задается от предыдущего элемента к следующему
-              </a>
-            </li>
-            <li class="gray-item">
-              <a href="#seconde" class="gray__link">
-                2. Отступ задается последнему возможному элементу в DOM-дереве
-              </a>
-            </li>
-            <li class="gray-item">
-              <a href="#third" class="gray__link">
-                3. Для последнего элемента группы отступ обнуляется
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    </div>
+    <div class="gray">
+        <h2 class="title gray__title">Содержание</h2>
+        <ul class="gray__list">
+          <li class="gray-item">
+            <a href="#first" class="gray__link">
+              1. Отступ задается от предыдущего элемента к следующему
+            </a>
+          </li>
+          <li class="gray-item">
+            <a href="#seconde" class="gray__link">
+              2. Отступ задается последнему возможному элементу в DOM-дереве
+            </a>
+          </li>
+          <li class="gray-item">
+            <a href="#third" class="gray__link">
+              3. Для последнего элемента группы отступ обнуляется
+            </a>
+          </li>
+        </ul>
+    </div>
     </section>
     <section class="rule" id="first">
       <div class="container rule__container">
@@ -168,29 +162,23 @@
       <!-- container -->
 
     </section>
-    <section class="section gray">
-      <div class="gray__plate">
-        <div class="container gray__container">
-          <h2 class="title gray__title">Подытожим:</h2>
-          <ul class="gray__list">
-            <li class="gray__item">
-              — отступы задаём от предыдущего элемента к следующему
-            </li>
-            <li class="gray__item">
-              — используем только margin-right и margin-bottom
-            </li>
-            <li class="gray__item">
-              — внешние отступы задаются только между соседями
-            </li>
-            <li class="gray__item">
-              — последнему элементу группы отступ всегда обнуляем
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    
+    <div class="gray">
+      <h2 class="title gray__title">Подытожим:</h2>
+      <ul class="gray__list">
+        <li class="gray__item">
+          — отступы задаём от предыдущего элемента к следующему
+        </li>
+        <li class="gray__item">
+          — используем только margin-right и margin-bottom
+        </li>
+        <li class="gray__item">
+          — внешние отступы задаются только между соседями
+        </li>
+        <li class="gray__item">
+          — последнему элементу группы отступ всегда обнуляем
+        </li>
+      </ul>
+    </div> 
   </article>
-  
 </body>
 </html>

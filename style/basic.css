@@ -16,6 +16,12 @@ body {
   background-color: #fff;
   color: #000 
 }
+article {
+  max-width: 1140px;
+  padding-top: 71px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
 
 img {
   max-width: 100%;
@@ -46,16 +52,11 @@ li:last-child {
   margin-bottom: 0
 }
 section {
-  max-width: 1140px;
-  margin: 0 auto;
   padding: 25px 0;
 }
 
 .container {
-  max-width: 1080px;
-  margin: 0 auto;
-  
-
+  padding: 0 30px;
 }
 
 .title {
