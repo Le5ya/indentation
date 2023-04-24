@@ -36,9 +36,18 @@
 .rule__img:not(:last-child) {
   margin-bottom: 30px;
 }
+.image__block {
+  margin-bottom: 0;
+}
 .image__title {
   text-align: left;
   max-width: 1020px;
+  margin-bottom: 30px;
+}
+.image__title_under {
+  max-width: 1020px;
+  padding: 15px 30px;
+  margin: 0;
 }
 .bold-italic {
   font-weight: 900;

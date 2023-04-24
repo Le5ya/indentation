@@ -4,19 +4,34 @@
   border-radius: 10px;
   margin-bottom: 25px;
 }
+.gray__container {
+  padding: 0 45px;
+}
 .gray__title {
   font-weight: 700;
   font-size: 44px;
   line-height: 120%;
   color: #000000;
-  margin-bottom: 30px;
 }
 .gray__link {
-  font-size: 20px;
-  line-height: 120%;
   text-decoration: underline;
 	text-decoration-color: #111;
 }
-.gray__list {
+.gray__item {
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 10px; 
+}
+.gray__item:last-child {
+  margin-bottom: 0;
+}
+.gray__item_green {
   color: #02535F;
+}
+.gray__list_dashed {
+  margin-bottom: 30px;
+}
+
+.gray__item_dashed:before {
+  content: '\2014';
 }
