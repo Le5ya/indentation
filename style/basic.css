@@ -26,7 +26,6 @@ article {
 img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 a {
@@ -36,6 +35,9 @@ a {
 
 h1, h2, p, figure {
   margin: 0;
+}
+figcaption {
+  margin: 0 auto;
 }
 p:not(:last-child) {
   margin-bottom: 30px;

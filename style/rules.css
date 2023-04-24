@@ -4,6 +4,7 @@
   font-size: 36px;
   line-height: 120%;
 }
+
 .rule__part::after {
   content: '';
   display: table;
@@ -23,15 +24,24 @@
   margin-left: 30px;
 }
 
-.img-wrap {
-  text-align: center;
-  padding-bottom: 30px;
-}
-.rule__img:last-child {
-  margin-bottom: 0;
-}
+
 .rule__part:not(last-child) {
-  padding-bottom: 30px;;
+  margin-bottom: 30px;;
+}
+.image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.rule__img:not(:last-child) {
+  margin-bottom: 30px;
+}
+.image__title {
+  text-align: left;
+  max-width: 1020px;
+}
+.bold-italic {
+  font-weight: 900;
+  font-style: italic;
 }
 
 

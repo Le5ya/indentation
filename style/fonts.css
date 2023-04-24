@@ -12,3 +12,10 @@
      url('../fonts/Roboto-Black.woff') format('woff');
      font-weight: 900;    
 }
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'),
+      url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
+     url('../fonts/Roboto-BoldItalic.woff') format('woff');
+     font-weight: 900;    
+}
