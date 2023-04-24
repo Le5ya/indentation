@@ -1,4 +1,6 @@
-
+.rule {
+  padding: 25px 0;
+}
 .rule__title {
   font-weight: 900;
   font-size: 36px;
@@ -15,7 +17,6 @@
   height: 450px;
   float: left;
   margin-right: 30px;
-  
 }
 .rule__img_right {
   max-width: 560px;
@@ -25,7 +26,7 @@
 }
 
 
-.rule__part:not(last-child) {
+.rule__part:not(:last-child) {
   margin-bottom: 30px;;
 }
 .image {
@@ -41,6 +42,9 @@
 }
 .bold-italic {
   font-weight: 900;
+  font-style: italic;
+}
+.italic {
   font-style: italic;
 }
 

@@ -47,26 +47,29 @@
         <h2 class="title rule__title">
           Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.
         </h2>
-        <figure class="rule__part">
-          <img class="rule__img" src="img/rule-image-1.jpg" alt="" class="rule__img_left">
-          <p class="text">
-              <span class="bold-italic">ВАЖНО:</span> margin всегда задают от предыдущего элемента к следующему.
-          </p>
-          <p class="text">
-              Свойство margin необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется margin-right и margin-bottom.
-          </p>
-          <p class="text">
-              (!) Свойства margin-left и margin-top используются крайне редко.
-          </p>
-          <p class="text">
-              Для padding верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.
-          </p>
-        </figure>
+        <div class="rule__part">
+            <img src="img/rule-image-1.jpg" alt="" class="rule__img_left">
+            <p class="text">
+                <span class="bold-italic">ВАЖНО: </span><span class="italic">margin</span> всегда задают от предыдущего элемента к следующему.
+            </p>
+            <p class="text">
+                Свойство <span class="italic">margin</span> необходимо только для того, чтобы отодвинуть своего соседа справа или снизу, поэтому используется <span class="italic">margin-right</span> и <span class="italic">margin-bottom</span>.
+            </p>
+            <p class="text">
+                (!) Свойства <span class="italic">margin-left</span> и <span class="italic">margin-top</span> используются крайне редко.
+            </p>
+            <p class="text">
+                Для<span class="italic">padding</span> верно обратное. Исключением является его применения в декоративных целях, например, для увеличения области ссылки.
+            </p>
+
+        </div>
+        
+        
       
       <div class="rule__part">
-        <img class="rule__img" src="img/rule-image-2.jpg" alt="" class="rule__img_right">
+        <img src="img/rule-image-2.jpg" alt="" class="rule__img_right">
         <p class="text">
-        Отступ внутри блока сверху или слева реализуется через padding-top и padding-left родителя.
+        Отступ внутри блока сверху или слева реализуется через padding-top</span> и <span class="italic">padding-left</span> родителя.
         </p>
         <p class="text">
         Отступы, как правило, делают в направлении от предыдущего элемента к следующему. Так элемент не будет толкать сам себя.
@@ -83,7 +86,7 @@
           Отступ задается последнему возможному элементу в DOM-дереве
         </h2>
         <p class="text">
-          Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:
+          Вообще, <span class="italic">margin</span> задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:
         </p>
         <figure class="image">
           <img class="rule__img" src="img/rule-image-3.jpg" alt="" class="rule__img">
@@ -99,12 +102,11 @@
         <figure class="image">
           <img class="rule__img" src="img/rule-image-5.jpg" alt="">
           <figcaption class="image__title">
-            <span class="bold-italic">ВАЖНО:</span> здесь .list-item — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.
+            <span class="bold-italic">ВАЖНО:</span> здесь <span class="italic">.list-item</span> — последний возможный элемент в котором мы задаём отступ, чтобы разделить списки.
           </figcaption>
         </figure>
-        
         <p class="text">
-          Казалось бы, можно задать отступ параграфу &lt;p&gt;, либо обёртке &lt;article&gt; для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
+          Казалось бы, можно задать отступ параграфу &lt;<span class="italic">p</span>&gt;, либо обёртке &lt;<span class="italic">article</span>&gt; для достижения той же цели. Внешне останется все точно также, но так делать не рекомендуется.
         </p>
         <p class="text">
           Предыдущий пример был достаточно простым, но бывает вложенность значительно больше.
@@ -114,7 +116,7 @@
         </figure>
         
         <p class="text">
-          В случае с заголовком, если ему необходим отступ сверху, последним элементом будет section. Именно для него задается padding-top, а не div с классом container. Свойства margin, которые стоят по умолчанию необходимо обнулить.
+          В случае с заголовком, если ему необходим отступ сверху, последним элементом будет <span class="italic">section</span>. Именно для него задается <span class="italic">padding-top</span>, а не <span class="italic">div</span> с классом container. Свойства <span class="italic">margin</span>, которые стоят по умолчанию необходимо обнулить.
         </p>
         <figure class="image">
           <img class="rule__img" src="img/rule-image-7.jpg" alt="">
@@ -139,7 +141,7 @@
           <img class="rule__img" src="img/rule-image-8.jpg" alt="">
         </figure>
         <p class="text">
-          В соответствии со вторым принципом: последний margin обнуляется, а нижний отступ задаётся через padding для section. Я чаще всего задаю padding для секции с обоих сторон, если расстояние между секциями 100px задаю секциям padding-top:50px и padding-bottom:50px.
+          В соответствии со вторым принципом: последний <span class="italic">margin</span> обнуляется, а нижний отступ задаётся через <span class="italic">padding</span> для <span class="italic">section</span>. Я чаще всего задаю <span class="italic">padding</span> для секции с обоих сторон, если расстояние между секциями 100px задаю секциям padding-top:50px и padding-bottom:50px.
         </p>
         <figure class="image">
           <img class="rule__img" src="img/rule-image-9.jpg" alt="">
@@ -161,7 +163,7 @@
           <img class="rule__img" src="img/rule-image-14.jpg" alt="">
         </figure>
         <p class="text">
-          Советую использовать псевдоклассы :last-child чаще других, например так:
+          Советую использовать псевдоклассы <span class="italic">:last-child </span>чаще других, например так:
         </p>
         <figure class="image">
           <img class="rule__img" class="rule__img" src="img/rule-image-15.jpg" alt="">
@@ -178,7 +180,7 @@
           — отступы задаём от предыдущего элемента к следующему
         </li>
         <li class="gray__item">
-          — используем только margin-right и margin-bottom
+          — используем только <span class="italic">margin-right</span> и <span class="italic">margin-bottom</span>
         </li>
         <li class="gray__item">
           — внешние отступы задаются только между соседями
